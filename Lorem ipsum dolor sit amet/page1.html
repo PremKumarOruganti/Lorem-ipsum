@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered Users Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <Style>
+        div {
+            border: 0px solid;
+        }
+
+        #black {
+            background-color: black
+        }
+
+        .btn-color {
+            background: rgba(255, 255, 255, .15);
+           
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-dark text-white ">
+            <div class="col-md-1 p-2 text-right pb-2">
+                <i class="fa-solid fa-table-cells "></i>
+            </div>
+
+            <div class="col-md-9 pt-2">
+                <span class="font-weight-bolder">WE CREATE AND TRANSFORM</span>
+            </div>
+
+            <div class="col-md-1 pt-2 text-right">
+                <i class="fa-solid fa-gear"></i> &nbsp;&nbsp;<i class="fa-solid fa-question"></i>
+
+            </div>
+
+            <div class="col-md-1 p-2 pl-3">
+                <img src="Images/SITE DESIGN_NOV 22 (2) (1)/user.png" alt="Chania" class="img-fluid rounded-circle">
+            </div>
+
+        </div>
+
+        <div class="row" id="black">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 text-dark">
+                <nav class="navbar navbar-expand-sm navbar-dark ">
+                    <ul class="navbar-nav">
+
+
+                        <li class="nav-item dropdown">
+                            <a class=" btn-color nav-link dropdown-toggle rounded" href="#" id="navbardrop" data-toggle="dropdown">
+                                About us
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="page1.html">Page 1</a>
+                                <a class="dropdown-item" href="page2.html">Page 2</a>
+                                <a class="dropdown-item" href="page3.html">Page 3</a>
+                                <a class="dropdown-item" href="page4.html">Page 4</a>
+                            </div>
+                        </li>&nbsp;&nbsp;
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                At work
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>&nbsp;&nbsp;
+
+
+                        <!-- Brand -->
+                        <a class="navbar-brand text-muted" href="#">News</a>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Events
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>&nbsp;&nbsp;
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Link five
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>&nbsp;&nbsp;
+
+
+                        <!-- Brand -->
+                        <a class="navbar-brand text-muted" href="#">Give feedback</a>
+
+
+                    </ul>
+
+                </nav>
+            </div>
+
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-1 d-flex align-items-center">
+                <span class="badge badge-light text-dark py-2 px-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+
+            </div>
+            <!-- </div>
+            </div> -->
+            <!-- <div class="col-md-3 p-2">
+
+            </div>
+
+            <div class="col-md-1 p-0 text-white">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm text-white" id="black">About us</button>
+                    <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split text-white"
+                        data-toggle="dropdown" id="black">
+                        <span class="caret text-white"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">HI</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1 p-0">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm text-white">At work</button>
+                    <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split text-white"
+                        data-toggle="dropdown">
+                        <span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">HI</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1 p-0">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm text-white">News</button>
+
+                </div>
+            </div>
+            <div class="col-md-1 p-0">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm text-white">Events</button>
+                    <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split text-white"
+                        data-toggle="dropdown">
+                        <span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">HI</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 p-0">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm text-white">Link five</button>
+                    <button type="button" class="btn btn-sm dropdown-toggle dropdown-toggle-split text-white"
+                        data-toggle="dropdown">
+                        <span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">HI</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 p-0 text-left">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm mr-3 text-white">Give feedback</button>
+                </div>
+            </div>
+
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-1 pt-1">
+                <span class="badge badge-light text-dark py-2 px-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+
+            </div> -->
+
+        </div>
+
+        <div class="row ">
+            <div class="col-md-6 p-0">
+
+                <div class="card bg-inverse border-0">
+
+                    <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-000.jpg" alt="Chania" class="img-fluid"
+                        style="height: 397px;">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end text-white  pl-4 ml-4">
+                        <p>CATEGORY</p>
+                        <h6>Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod
+                        </h6>
+                        <small>DATE</small>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-000.jpg" alt="Chania" class="img-fluid">
+                    
+                    
+                </div> -->
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 p-0 pb-0">
+                        <div class="card bg-inverse border-0">
+
+                            <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-003.jpg" alt="Chania" class="img-fluid">
+                            <div
+                                class="card-img-overlay h-100 d-flex flex-column justify-content-end text-white  pl-4 ml-4">
+                                <p>CATEGORY</p>
+                                <h6>Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit
+                                </h6>
+                                <small>DATE</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 p-0">
+                        <div class="card bg-inverse border-0">
+
+                            <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-005.jpg" alt="Chania" class="img-fluid"
+                                style="height: 192px;">
+                            <div
+                                class="card-img-overlay h-100 d-flex flex-column justify-content-end text-white  pl-4 ml-4">
+                                <p>CATEGORY</p>
+                                <h6>Lorem ipsum dolor sit
+                                    amet, consectetuer
+                                    adipiscing elit, sed diam
+                                    nonummy nibh euismod
+                                </h6>
+                                <small>DATE</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <div class="card bg-inverse border-0">
+
+                            <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-020.jpg" alt="Chania" class="img-fluid" style="height: 205px;">
+                            <div
+                                class="card-img-overlay h-100 d-flex flex-column justify-content-end text-white  pl-4 ml-4">
+                                <p>CATEGORY</p>
+                                <h6>Lorem ipsum dolor sit
+                                    amet, consectetuer
+                                </h6>
+                                <small>DATE</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 p-0">
+                        <div class="card bg-inverse border-0">
+
+                            <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-006.jpg" alt="Chania" class="img-fluid"
+                                style="height: 205px;">
+                            <div
+                                class="card-img-overlay h-100 d-flex flex-column justify-content-end text-white  pl-4 ml-4">
+                                <p>CATEGORY</p>
+                                <h6>Lorem ipsum dolor sit
+                                    amet, consectetuer
+                                    adipiscing elit
+                                </h6>
+                                <small>DATE</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="container-fluid p-0">
+            <div class="row p-0">
+                <div class="col-md-10 p-2">
+                </div>
+                <div class="col-md-2 text-right py-4">
+                    <small>More news</small>
+                </div>
+            </div>
+
+            <div class="row px-3">
+
+                <div class="col-md-3">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-sharp fa-solid fa-1x fa-user-large"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title one <span class="badge badge-info">VPN</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-solid fa-display"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title two
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-solid fa-user-plus"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title three <span class="badge badge-info">VPN</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title four <span class="badge badge-info">VPN</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <div class="row px-3">
+                <div class="col-md-3 ">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-solid fa-newspaper"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title five <span class="badge badge-info">VPN</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title six
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-sharp fa-solid fa-1x fa-user-large"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title seven
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card bg-light">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-2 pt-2 pr-0 text-center">
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="col-md-12 p-0">
+                                            Button title eight <span class="badge badge-info">VPN</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 p-0 mt-n1">
+                                            <font size="1px">Descriptor</font>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 p-2">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 p-2">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+
+            </div>
+            <div class="col-md-9 pl-1">
+                <span class="h1 ">Upcoming events</span>
+                <font size="2px" class="float-right pt-4 pr-2">More events</font>
+            </div>
+            <!-- <div class="col-md-5 text-right pr-5 pt-2 py-2">
+                
+            </div> -->
+
+            <div class="col-md">
+
+            </div>
+
+        </div>
+
+        <div class="row pb-5 pt-3 ">
+            <div class="col-md p-2">
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width:100% ; height: 100%;">
+                    <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-007.jpg" alt="Chania" class="img-fluid" style="height: 182px;">
+                    <div class="card-body">
+                        <font size="2px" class="card-title text-secondary">CATEGORY</font>
+                        <p class="card-text h5">Lorem ipsum dolor sit
+                            amet, consectetuer
+                        </p>
+                        <p>Event Address</p>
+                        <font size="2px" class="text-secondary">DATE AND TIME</font>
+                    </div>
+                    <div class="card-foot text-secondary pl-4 py-2 border">
+                        <i class="fa-solid fa-arrow-down-long"></i> &nbsp;<font size="2px">Download calendar entry
+                        </font>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width:100%">
+                    <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-008.jpg" alt="Chania" class="img-fluid">
+                    <div class="card-body">
+                        <font size="2px" class="card-title text-secondary">CATEGORY</font>
+                        <p class="card-text h5">Lorem ipsum dolor sit
+                            amet, consectetuer
+                        </p>
+                        <p>Event Address</p>
+                        <font size="2px" class="text-secondary">DATE AND TIME</font>
+                    </div>
+                    <div class="card-foot text-secondary pl-4 py-2 border">
+                        <i class="fa-solid fa-arrow-down-long"></i> &nbsp;<font size="2px">Download calendar entry
+                        </font>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width:100%">
+                    <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-009.jpg" alt="Chania" class="img-fluid">
+                    <div class="card-body">
+                        <font size="2px" class="card-title text-secondary">CATEGORY</font>
+                        <p class="card-text h5">Lorem ipsum dolor sit
+                            amet, consectetuer
+                        </p>
+                        <p>Event Address</p>
+                        <font size="2px" class="text-secondary">DATE AND TIME</font>
+                    </div>
+                    <div class="card-foot text-secondary pl-4 py-2 border">
+                        <i class="fa-solid fa-arrow-down-long"></i> &nbsp;<font size="2px">Download calendar entry
+                        </font>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+
+            </div>
+        </div>
+
+        <div class="row py-4">
+            <div class="card bg-inverse">
+                <div class="col-md-12 p-0">
+                    <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-011.jpg" alt="Chania" class="img-fluid">
+                </div>
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end text-white text-center">
+
+                    <h1>TAKE A SEAT
+                    </h1>
+                    <p>A short description goes here
+                    </p>
+                    <p><button type="button" class="btn btn-info">FIND OUT MORE</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-4 p-0">
+                <img src="Images/SITE DESIGN_NOV 22 (2) (1)/image-010.jpg" alt="Chania" class="img-fluid rounded h-100">
+            </div>
+            <div class="col-md-4">
+                <h1>Article title</h1>
+                <p>Article subtitle goes here</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                    aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat,
+                    vel illum dolore eu feugiat.
+                </p>
+                <a href="page2.html" class="btn btn-info" role="button">FIND OUT MORE</a>
+
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid" id="black">
+        <div class="row">
+            <div class="col-md-12 p-2">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-borderless table-sm- text-white ">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th class="pl-5">MORE INFO</th>
+                            <th class="pl-5">RESOURCES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-0">&nbsp;</td>
+                            <td class="py-0">&nbsp;</td>
+                            <td class="py-0">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-5">&nbsp;</td>
+                            <td class="pl-5">More info one</td>
+                            <td class="pl-5">Resource one <span class="badge badge-info">VPN</span></td>
+                        </tr>
+                        <tr>
+                            <td class="pl-5">&nbsp;</td>
+                            <td class="pl-5">More info two</td>
+                            <td class="pl-5">Resource two</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-5">&nbsp;</td>
+                            <td class="pl-5">More info three</td>
+                            <td class="pl-5">Resource three</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-5">&nbsp;</td>
+                            <td class="pl-5">More info four</td>
+                            <td class="pl-5">Resource four</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-5">&nbsp;</td>
+                            <td class="pl-5">More info five</td>
+                            <td class="pl-5">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-6">
+                <table class="table table-borderless table-sm text-white ">
+                    <thead>
+                        <tr>
+                            <th>SERVICES & TOOLS</th>
+                            <th>RESOURCES</th>
+                            <th class="pl-5">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Service one <span class="badge badge-info">VPN</span><br> <small>Descriptor</small></td>
+                            <td>Service five <span class="badge badge-info">VPN</span><br> <small>Descriptor</small>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Service two <br> <small>Descriptor</small></td>
+                            <td>Service six <span class="badge badge-info">VPN</span><br> <small>Descriptor</small></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Service three <br> <small>Descriptor</small></td>
+                            <td>Service seven <span class="badge badge-info">VPN</span><br> <small>Descriptor</small>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Service four <span class="badge badge-info">VPN</span><br> <small>Descriptor</small>
+                            </td>
+                            <td>Service eight <br> <small>Descriptor</small></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <table class="table table-bordered table-sm text-white text-center">
+                    <thead>
+                        <th class="border-0 p-2">Share your thoughts</th>
+                    </thead>
+                    <tbody>
+                        <td class="border-0 p-3">
+                            <button type="button" class="btn btn-info">GIVE FEEDBACK</button>
+                        </td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center text-white">
+                <i class="fa-brands fa-instagram"></i> &nbsp; <i class="fa-brands fa-facebook-f"></i> &nbsp; <i
+                    class="fa-brands fa-linkedin-in"></i>
+                &nbsp; <i class="fa-brands fa-twitter"></i> &nbsp; <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center text-white">
+                copyright @ 2022. All rights reserved.
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
